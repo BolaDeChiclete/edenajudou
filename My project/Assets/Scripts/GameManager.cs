@@ -25,12 +25,7 @@ public class GameManager : MonoBehaviour
     {
         LoadScene("Splash");
     }
-
-    // Start is called before the first frame update
-
-    // Update is called once per frame
     
-
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
